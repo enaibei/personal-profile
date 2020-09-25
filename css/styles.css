@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: normal;
-    background-image: url(../images/salad.jpg)
 }
 
 .container {
@@ -49,6 +48,12 @@ header nav {
     margin-top: 10px;
 }
 
+#showcase{
+    min-height: 400px;
+    background-image: url(../images/me.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
 #showcase h1 {
     margin-top: 100px;
     font-size: 55px;
@@ -60,15 +65,50 @@ header nav {
     font-size: 36px;
     border: turquoise;
     border-width: 2px;
-}
-.newsletter {
-    padding: 15px;
-    color: white;
-    background-color: rgb(1, 1, 19);
-    }
-.newsletter  h1 {
-    float: left;
-    }
-.newsletter form {
+
+
+/*from master*/
+.sidebar {
     float: right;
+    width: 30%;
+    background-color: yellow;
+    height: 100%;
+}
+.column {
+    float: left;
+    width: 350px;
+    height: 100%;
+    border: 8px solid red;
+    padding: 20px;
+}
+
+.social-media ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50% -50%);
+    display: flex;
+}
+.social-media ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-media ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: 6s;
+    color: #000;
+}
+.social-media ul li a{
+    position: relative;   
+    display: block; 
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    text-align: center;
+    background-color: #fff;
+    transition: 6s;
+    text-shadow:
 }
