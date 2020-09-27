@@ -4,7 +4,7 @@
 #### It tells the world about myself and the projects I'm using to learn web development
 ## Set-up Instructions
 #### Fork the project to your repository and download the code to your local machine and you are ready to go
-
-author name
-link to live site on GitHub Pages
-copyright and license information
+## GitHub Pages live link
+#### https://enaibei.github.io/personal-profile/
+## author name
+#### Esther Naibei
