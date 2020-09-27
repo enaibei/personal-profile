@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
     line-height: normal;
 }
 
@@ -33,11 +32,9 @@ header ul {
 }
 
 header li {
-    float:left;
     display: inline;
     padding: 0 20px 0 0;
 }
-
 .branding {
 float: left;
 }
@@ -62,16 +59,15 @@ header nav {
     margin-bottom: 10px;
     }
 
-.social-media ul{
-   
+.social-media ul{   
     top: 70%;
     left: 50%;
     padding: 0;
     margin: 0;
     transform: translate(-50% -50%);
     display: flex;
-    background-color: rgb(13, 131, 146)
-}
+    background-color: rgb(13, 131, 146);
+    }
 .social-media ul li{
     list-style: none;
     margin: 0 15px;
@@ -93,3 +89,4 @@ header nav {
     transition: 6s;
     text-shadow:
 }
+
